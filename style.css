@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 70%;
+    background-color: lightgray;
+    padding: 1.2em;
+    margin: 0 auto;
+}
+
+
+#login {
+    border: 2px solid black;
+    background-color: blue;
+    color: whitesmoke;
+    padding: .3rem .6rem;
+    margin-left: 80px;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#search {
+    border: 1.5px solid black;
+    flex: 2;
+}
+
+#title {
+    flex: 1;
+}
+
+#login {
+    flex: 1;
+}
+
+.definition-box {
+    border: 3px solid black;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#col1{
+    flex: 2;
+}
+
+#col2{
+    flex: 1;
+}
+
+#add-definition-box {
+    margin-left: 1.5em;
+}
+
+.word-info {
+    flex: 1;
+    margin: 1em;
+    text-align: center;
+}
+
+h4{
+    font-style: italic;
+}
+
+.plural {
+    font-weight: bold;
+    padding-top: .2em;
+}
+
+.like {
+    border: 3px solid black;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: yellow;
+    padding: .3em .6em;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.definition {
+    font-weight: bold;
+    font-size: 1.3em;
+    flex: 2;
+    margin-right: 1em;
+}
+
+#defined-by{
+    flex-direction: row;
+}
+
+#add-definition-box {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+#add {
+    border: 3px solid black;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color:yellowgreen;
+    padding: .3em .6em;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+    width: 100%;
+}
